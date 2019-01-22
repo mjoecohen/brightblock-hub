@@ -10,7 +10,7 @@
           <hr class="hr-light" v-if="title.length > 0"/>
           <h6 class="mb-4" v-if="tagline.length > 0">{{tagline}}</h6>
           <!-- <mdb-btn color="white" v-if="title.length > 0">Download</mdb-btn> -->
-          <mdb-btn outline="white" v-if="title.length > 0">Learn More</mdb-btn>
+          <mdb-btn outline="white" v-if="title.length > 0" v-html="learnbutton"></mdb-btn>
         </div>
       </mdb-row>
     </mdb-container>
@@ -66,7 +66,8 @@ export default {
     return {
       imageUrl: null,
       title: '',
-      tagline: ''
+      tagline: '',
+      learnbutton: null
     };
   },
   created() {
@@ -77,6 +78,7 @@ export default {
       this.$prismic.client.getSingle("home").then(document => {
         this.title = document.data.title[0].text;
         this.tagline = document.data.richcontent[0].text;
+        this.learnbutton = document.data.learnbutton[0].text;
         this.imageUrl = document.data.bgimage.url;
       });
     }
