@@ -2,8 +2,8 @@
 <!--Navbar-->
 <mdb-navbar dark position="top" class="blue-grey" scrolling>
   <!-- mdbNavbar brand -->
-  <mdb-navbar-brand href="/">
-    BrightBlock
+  <mdb-navbar-brand>
+    <router-link to="/" name="sectionUrl(link1 + 'Section')" class="navbar-brand" >BrightBlock</router-link>
   </mdb-navbar-brand>
   <mdb-navbar-toggler>
     <mdb-navbar-nav right>
@@ -32,12 +32,10 @@ function resizeThrottler(actualResizeHandler) {
 }
 
 import { mdbNavbar, mdbNavItem, mdbNavbarNav, mdbNavbarToggler, mdbContainer, mdbDropdown, mdbDropdownItem, mdbDropdownMenu, mdbDropdownToggle, mdbInput, mdbNavbarBrand, mdbIcon, mdbRow } from 'mdbvue';
-import AccountLinks from "@/layout/AccountLinks";
 
 export default {
   name: 'NavbarPage',
   components: {
-    AccountLinks,
     mdbNavbar,
     mdbNavItem,
     mdbNavbarNav,

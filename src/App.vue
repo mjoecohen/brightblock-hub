@@ -10,25 +10,13 @@
   </div>
 </template>
 <script>
-import Leafs from "./views/components/Leafs";
-import Leafless from "./views/components/Leafless";
 
 export default {
-  components: {
-    Leafs,
-    Leafless
-  },
   bodyClass: "index-page",
   data() {
-    return {
-      showLeafs: true
-    };
+    return {};
   },
   mounted() {
-    let routeName = this.$route.name;
-    if (routeName === "brightBlock" || routeName === "profile") {
-      this.showLeafs = true;
-    }
   }
 };
 </script>
