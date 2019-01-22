@@ -1,7 +1,5 @@
 # [BrightBlock](https://www.brightblock.org)
 
-- [Purpose](#purpose)
-
 ## Introduction
 
 The first bitcoin hub in Brighton UK for art, discussion and meetups and technology.
