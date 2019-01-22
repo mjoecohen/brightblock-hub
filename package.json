@@ -13,6 +13,10 @@
     "lint": "eslint --ext .js,.vue src",
     "build": "node build/build.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/username/repository.git"
+  },
   "dependencies": {
     "@opentok/client": "^2.15.5",
     "@stomp/stompjs": "^4.0.6",
