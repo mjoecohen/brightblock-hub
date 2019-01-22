@@ -9,11 +9,7 @@
         <p>Brightons First Bitcoin Hub</p>
       </mdb-col>
       <mdb-col sm="6">
-        <h5 class="title"></h5>
-        <ul>
-          <li class="list-unstyled"><a href="#!"><mdb-icon icon="twitter" /> Twitter</a></li>
-          <li class="list-unstyled"><a href="#!"><mdb-icon icon="facebook" /> Facebook</a></li>
-        </ul>
+        <h5 class="title">be more social!</h5>
       </mdb-col>
     </mdb-row>
   </mdb-container>

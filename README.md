@@ -1,10 +1,10 @@
-# [Open Artem](https://www.openartmarket.org)
+# [BrightBlock](https://www.brightblock.org)
 
 - [Purpose](#purpose)
 
 ## Introduction
 
-A decentralised platform for buying and selling and auctioning art using Bitcoin.
+The first bitcoin hub in Brighton UK for art, discussion and meetups and technology.
 
 ## Build Setup
 
@@ -21,8 +21,6 @@ npm run build
 
 ## Purpose
 
-This is a proposal for a new kind of social market place for art where artists and art lovers can trade directly in a middle man free environment and in a community that supports artists and creators. We believe a fully decentralised application in this sector based on bitcoin consensus network will have wide appeal and will benefit from positive network effects at the grass roots level.
+Nestled in the heart of Brighton, the BrightBlock Bitcoin Hub will comprise work and events space, cafe and Bitcoin education and resource centre. Staffed by developers, entrepreneurs and Bitcoin experts who have been involved in the cryptocurrency space since Bitcoin's very early beginnings, we aim to be a one stop hub for all things Bitcoin related.
 
-Our first goal is to build a provenance solution that is capable of registering and transferring digital and physical works of art with immutable and secure proofs of ownership. We will then build on this foundation by providing direct seller to buyer  transactions registered on the bitcoin blockchain with transfer of ownership records. As the market place grows we will build a new kind of decentralised auction functionality which enables curators to set up and run auctions within their communities.
-
-Our platform will incentivise a community of artists and art lovers from the ground up with governance, reputation and reward structures under the control of the community because we believe this is the only way to disrupt the vested interests of the online art world.
+With onsite Bitcoin ATM, band stage, talks platform, shop and a dedicated Bitcoin art gallery, BrightBlock will be a thriving space of creativity and collaboration where we will hold regular events and welcome newcomers on a daily basis who are keen to understand Bitcoin and cryptocurrency in more depth.
