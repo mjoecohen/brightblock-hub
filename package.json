@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/username/repository.git"
+    "url": "https://github.com/mjoecohen/brightblock-hub"
   },
   "dependencies": {
     "@opentok/client": "^2.15.5",
